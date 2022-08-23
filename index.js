@@ -9,7 +9,6 @@ let passwordLength = 15;
 
 let passwordOne = document.getElementById("password1");
 let passwordTwo = document.getElementById("password2");
-let counter = document.getElementById("counter");
 
 function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length)
